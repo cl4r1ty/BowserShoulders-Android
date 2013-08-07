@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="modes_array">
+		<item name="1">Test</item>
+		<item name="2">1 Color</item>
+		<item name="3"> Back and Forth</item>
+		<item name="4">In &amp; Out</item>
+		<item name="5">Shifty</item>
+		<item name="6">Random 1</item>
+		<item name="7">Random All</item>
+		<item name="8">Shoulder to Neck</item>
+		<item name="9">Neck to Shoulder</item>
+		<item name="10">Up &amp; Down</item>
+		<item name="11">Rainbow</item>
+		<item name="12">Rainbow Cycle</item>
+		<item name="13">Random Mode</item>
+		<item name="14">Microphone</item>
+	</string-array>
+	<string-array name="modes_array_values">
+		<item name="1">1</item>
+		<item name="2">2</item>
+		<item name="3">3</item>
+		<item name="4">4</item>
+		<item name="5">5</item>
+		<item name="6">6</item>
+		<item name="7">7</item>
+		<item name="8">8</item>
+		<item name="9">9</item>
+		<item name="10">10</item>
+		<item name="11">11</item>
+		<item name="12">12</item>
+		<item name="13">13</item>
+		<item name="14">14</item>
+	</string-array>
+</resources>

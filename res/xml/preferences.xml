@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="Settings">
+	<PreferenceCategory android:title="Bluetooth Options">
+		<EditTextPreference android:key="bluetooth_local_mac"
+			android:title="Local Bluetooth Mac" android:dialogTitle="Local Bluetooth Mac" />
+		<EditTextPreference android:key="bluetooth_remote_mac"
+			android:title="Remote Bluetooth Mac" android:dialogTitle="Remote Bluetooth Mac" />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="Default Options">
+		<ListPreference android:key="shoulder_mode" android:defaultValue="0" 
+			android:title="Starting Mode" android:summary="Starting mode that will be run"
+			android:entries="@array/modes_array" android:entryValues="@array/modes_array_values" />
+		<EditTextPreference android:key="shoulder_speed" android:defaultValue="75" 
+			android:title="Starting Speed" android:dialogTitle="Starting shoulder speed, aka sleep delay." />
+		<EditTextPreference android:key="shoulder_color_one" android:defaultValue="0"
+			android:title="Starting Color 1" android:dialogTitle="Starting Color 1" />
+		<EditTextPreference android:key="shoulder_color_two" android:defaultValue="0"
+			android:title="Starting Color 2" android:dialogTitle="Starting Color 2" />
+	</PreferenceCategory>
+</PreferenceScreen>

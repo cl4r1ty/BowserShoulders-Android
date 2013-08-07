@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout android:id="@+id/TableLayout01" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <TableRow 
+	    	android:id="@+id/modeRow" 
+	    	android:layout_width="match_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:gravity="center_horizontal"
+	    	>
+	    	
+            <TextView 
+            	android:id="@+id/modeText" 
+		        android:text="@string/mode" 
+		        android:layout_height="wrap_content" 
+		        android:layout_width="match_parent"
+		        android:gravity="center_horizontal"
+		        android:textSize="18sp" 
+		        android:textStyle="bold"
+			    android:paddingTop="5dp" 
+			    android:paddingBottom="5dp"
+			    android:paddingRight="5dp"
+        	/>
+    	</TableRow>
+    	<TableRow 
+	    	android:id="@+id/speedRow" 
+	    	android:layout_width="match_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:gravity="center_horizontal"
+	    	>
+	    	<Spinner 
+		        android:id="@+id/modeSpinner"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:prompt="@string/startSpinner"
+	    	/>
+	    	</TableRow>
+    	<TableRow 
+	    	android:id="@+id/speedRow" 
+	    	android:layout_width="match_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:gravity="center_horizontal"
+	    	>
+            <TextView 
+            	android:id="@+id/speedText" 
+		        android:text="@string/speed" 
+		        android:layout_height="wrap_content" 
+		        android:layout_width="match_parent"
+		        android:gravity="center_horizontal"
+		        android:textSize="18sp" 
+		        android:textStyle="bold"
+			    android:paddingTop="5dp" 
+			    android:paddingBottom="5dp"
+			    android:paddingRight="5dp"
+        	/>
+    		<TextView  
+			    android:layout_width="match_parent" 
+			    android:text="75"
+			    android:textColor="#FFFFFF"
+			    android:layout_height="wrap_content"
+			    android:id="@+id/speedReading"
+			    android:gravity="center_horizontal"
+			    android:layout_gravity="center_horizontal"
+			    android:textSize="18sp" 
+			    android:textStyle="bold"
+			    android:paddingTop="5dp" 
+			    android:paddingBottom="5dp"
+	    	/>   
+    	</TableRow>
+    	<TableRow 
+    		android:layout_width="match_parent" 
+    		android:layout_height="wrap_content">
+	    	<SeekBar
+				android:id="@+id/speedSeekBar"
+				android:layout_height="wrap_content"   
+				android:gravity="center_horizontal" 
+				android:layout_width="match_parent" 
+				android:layout_weight="1"
+			/>	
+    	</TableRow>
+    	<TableRow 
+	    	android:id="@+id/rowTwo" 
+	    	android:layout_width="match_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:gravity="center_horizontal"
+	    	>
+            <TextView 
+            	android:id="@+id/colorOneText" 
+		        android:text="@string/colorOne" 
+		        android:layout_height="wrap_content" 
+		        android:layout_width="match_parent"
+		        android:gravity="center_horizontal"
+		        android:textSize="18sp" 
+		        android:textStyle="bold"
+			    android:paddingTop="5dp" 
+			    android:paddingBottom="5dp"
+			    android:paddingRight="5dp"
+        	/>
+    		<TextView  
+			    android:layout_width="match_parent" 
+			    android:text="75"
+			    android:textColor="#FFFFFF"
+			    android:layout_height="wrap_content"
+			    android:id="@+id/colorOneReading"
+			    android:gravity="center_horizontal"
+			    android:layout_gravity="center_horizontal"
+			    android:textSize="18sp" 
+			    android:textStyle="bold"
+			    android:paddingTop="5dp" 
+			    android:paddingBottom="5dp"
+	    	/>   
+    	</TableRow>
+    	<TableRow 
+    		android:layout_width="match_parent" 
+    		android:layout_height="wrap_content">
+	    	<SeekBar
+				android:id="@+id/colorOneSeekBar"
+				android:layout_height="wrap_content"   
+				android:gravity="center_horizontal" 
+				android:layout_width="match_parent" 
+				android:layout_weight="1"
+			/>	
+    	</TableRow>
+    	<TableRow 
+	    	android:id="@+id/rowThree" 
+	    	android:layout_width="match_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:gravity="center_horizontal"
+	    	>
+            <TextView 
+            	android:id="@+id/colorTwoText" 
+		        android:text="@string/colorTwo" 
+		        android:layout_height="wrap_content" 
+		        android:layout_width="match_parent"
+		        android:gravity="center_horizontal"
+		        android:textSize="18sp" 
+		        android:textStyle="bold"
+			    android:paddingTop="5dp" 
+			    android:paddingBottom="5dp"
+			    android:paddingRight="5dp"
+        	/>
+    		<TextView  
+			    android:layout_width="match_parent" 
+			    android:text="75"
+			    android:textColor="#FFFFFF"
+			    android:layout_height="wrap_content"
+			    android:id="@+id/colorTwoReading"
+			    android:gravity="center_horizontal"
+			    android:layout_gravity="center_horizontal"
+			    android:textSize="18sp" 
+			    android:textStyle="bold"
+			    android:paddingTop="5dp" 
+			    android:paddingBottom="5dp"
+	    	/>   
+    	</TableRow>
+    	<TableRow 
+    		android:layout_width="match_parent" 
+    		android:layout_height="wrap_content">
+	    	<SeekBar
+				android:id="@+id/colorTwoSeekBar"
+				android:layout_height="wrap_content"   
+				android:gravity="center_horizontal" 
+				android:layout_width="match_parent" 
+				android:layout_weight="1"
+			/>	
+    	</TableRow>
+<!--     	<TableRow  -->
+<!-- 	    	android:id="@+id/rowFour"  -->
+<!-- 	    	android:layout_width="match_parent"  -->
+<!-- 	    	android:layout_height="wrap_content"  -->
+<!-- 	    	android:gravity="center_horizontal" -->
+<!-- 	    	> -->
+<!--             <TextView  -->
+<!--             	android:id="@+id/colorThreeText"  -->
+<!-- 		        android:text="@string/speed"  -->
+<!-- 		        android:layout_height="wrap_content"  -->
+<!-- 		        android:layout_width="match_parent" -->
+<!-- 		        android:gravity="center_horizontal" -->
+<!-- 		        android:textSize="18sp"  -->
+<!-- 		        android:textStyle="bold" -->
+<!-- 			    android:paddingTop="5dp"  -->
+<!-- 			    android:paddingBottom="5dp" -->
+<!-- 			    android:paddingRight="5dp" -->
+<!--         	/> -->
+<!--     		<TextView   -->
+<!-- 			    android:layout_width="match_parent"  -->
+<!-- 			    android:text="75" -->
+<!-- 			    android:textColor="#FFFFFF" -->
+<!-- 			    android:layout_height="wrap_content" -->
+<!-- 			    android:id="@+id/colorThreeReading" -->
+<!-- 			    android:gravity="center_horizontal" -->
+<!-- 			    android:layout_gravity="center_horizontal" -->
+<!-- 			    android:textSize="18sp"  -->
+<!-- 			    android:textStyle="bold" -->
+<!-- 			    android:paddingTop="5dp"  -->
+<!-- 			    android:paddingBottom="5dp" -->
+<!-- 	    	/>    -->
+<!--     	</TableRow> -->
+<!--     	<TableRow  -->
+<!--     		android:layout_width="match_parent"  -->
+<!--     		android:layout_height="wrap_content"> -->
+<!-- 	    	<SeekBar -->
+<!-- 				android:id="@+id/colorThreeSeekBar" -->
+<!-- 				android:layout_height="wrap_content"    -->
+<!-- 				android:gravity="center_horizontal"  -->
+<!-- 				android:layout_width="match_parent"  -->
+<!-- 				android:layout_weight="1" -->
+<!-- 			/>	 -->
+<!--     	</TableRow> -->
+    </TableLayout>
+</LinearLayout>
